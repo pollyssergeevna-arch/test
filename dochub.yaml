@@ -32,3 +32,13 @@ docs:
     source: auto-1756980294577-4026.puml
     location: /seqdiag
     title: seqdiag
+  doc1756980774847:
+    type: drawio
+    source: auto-1756980774801-3248.drawio
+    location: /drowIO-er
+    title: drowIO-er
+  doc1756980825690:
+    type: archimatejs
+    source: auto-1756980825641-1094.archimate
+    location: /arhimate
+    title: arhimate

@@ -76,7 +76,7 @@
           </archimate:style>
           <archimate:waypoints>
             <archimate:waypoint x="419" y="307" />
-            <archimate:waypoint x="331.2413058907026" y="278.9297374024131" />
+            <archimate:waypoint x="331" y="278" />
           </archimate:waypoints>
         </archimate:connection>
       </archimate:view>

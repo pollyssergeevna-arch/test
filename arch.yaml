@@ -1,0 +1,23 @@
+components: 
+  webproject.frontend:
+    title: Фронтэнд
+    entity: system
+    links: 
+      - id: webproject.backend
+        title: API авторизации
+        contract: openapi # <<<<< Здесь идентификатор документа контракта 
+  webproject.backend:
+    title: Бэкенд
+    entity: system
+    links: 
+      - id: webproject.log
+        title: Логирование
+  webproject.log:
+    title: LOG
+    entity: system
+contexts: 
+  webproject:
+    location: L1
+    title: L1
+    components: 
+      - webproject.*

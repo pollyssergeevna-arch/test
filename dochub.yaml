@@ -10,3 +10,15 @@ imports:
   - https://beta.dochub.info/archcode/_metamodel_/ceaf-app/dochub.yaml
   # Базовая документация по DocHubIDE
   - https://alpha.dochub.info/archcode/dochub.yaml
+  - arch.yaml
+docs:
+  openapi:
+    type: openapi
+    source: auto-1756979421419-7444.yaml
+    location: /openapi
+    title: openapi
+  doc1756979535873:
+    type: bpmnjs
+    source: auto-1756979535803-9950.bpmn
+    location: /BPMN
+    title: BPMN

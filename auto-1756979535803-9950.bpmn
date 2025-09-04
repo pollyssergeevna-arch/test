@@ -90,13 +90,13 @@
         <di:waypoint x="485" y="450" />
         <di:waypoint x="590" y="450" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_18h9z4o_di" bpmnElement="Flow_18h9z4o">
-        <di:waypoint x="370" y="280" />
-        <di:waypoint x="370" y="410" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="DataOutputAssociation_04odiho_di" bpmnElement="DataOutputAssociation_04odiho">
         <di:waypoint x="374" y="490" />
         <di:waypoint x="378" y="525" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_18h9z4o_di" bpmnElement="Flow_18h9z4o">
+        <di:waypoint x="370" y="280" />
+        <di:waypoint x="370" y="410" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_13ly28l_di" bpmnElement="Flow_13ly28l">
         <di:waypoint x="640" y="410" />

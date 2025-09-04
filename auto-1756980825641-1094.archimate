@@ -1,96 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.opengroup.org/xsd/archimate/3.0/" id="id-a8wp72nico9dhc3p1w3lalh4a" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.opengroup.org/xsd/archimate/3.0/" id="id-0kri5g8n8f1feaunidhv9dlup" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
   <archimate:name>New model</archimate:name>
   <archimate:documentation></archimate:documentation>
-  <archimate:elements>
-    <archimate:baseElement id="id-8cp3c8ekbz8irm18vn2rzlr9h" type="ApplicationComponent">
-      <archimate:name>Application Component</archimate:name>
-    </archimate:baseElement>
-    <archimate:baseElement id="id-3yg0szgwqiv5uaxjpsrv8kadw" type="ApplicationComponent">
-      <archimate:name>Application Component2</archimate:name>
-    </archimate:baseElement>
-    <archimate:baseElement id="id-8v3o4zfpqdrt8r79iqne4g25q" type="BusinessObject">
-      <archimate:name>Business Object</archimate:name>
-    </archimate:baseElement>
-    <archimate:baseElement id="id-bos9ahbb9jokokisq5m8emetd" type="Contract">
-      <archimate:name>Contract</archimate:name>
-    </archimate:baseElement>
-  </archimate:elements>
+  <archimate:elements />
   <archimate:views>
     <archimate:diagrams>
-      <archimate:view id="id-8wuus225b3nw7hqercauv3osu">
+      <archimate:view id="id-54dasajzidjtj5yvx38mpzht9">
         <archimate:name>Default View</archimate:name>
         <archimate:documentation></archimate:documentation>
-        <archimate:node id="id-06zqn6dkfek62fmh4y7k9pxp1" type="Element" elementRef="id-8cp3c8ekbz8irm18vn2rzlr9h" x="137" y="195" w="120" h="55">
-          <archimate:style textAlign="center-middle">
-            <archimate:font />
-            <archimate:fillColor r="181" g="255" b="255" a="100" />
-            <archimate:lineColor r="0" g="0" b="0" a="40" />
-          </archimate:style>
-        </archimate:node>
-        <archimate:node id="id-4fqejvt1jjo45mxk11g7m8yfa" type="Element" elementRef="id-3yg0szgwqiv5uaxjpsrv8kadw" x="329" y="196" w="120" h="55">
-          <archimate:style textAlign="center-middle">
-            <archimate:font />
-            <archimate:fillColor r="181" g="255" b="255" a="100" />
-            <archimate:lineColor r="0" g="0" b="0" a="40" />
-          </archimate:style>
-        </archimate:node>
-        <archimate:node id="id-8r48udal23mdicw2eden8m4r1" type="Element" elementRef="id-8v3o4zfpqdrt8r79iqne4g25q" x="168" y="310" w="120" h="55">
-          <archimate:style textAlign="center-middle">
-            <archimate:font />
-            <archimate:fillColor r="255" g="255" b="181" a="100" />
-            <archimate:lineColor r="0" g="0" b="0" a="40" />
-          </archimate:style>
-        </archimate:node>
-        <archimate:connection id="id-8t7acsntgzdszbc64b3adf0ju" type="Relationship" relationshipRef="id-69evq11tm4dici35il83ubt5n" source="id-8r48udal23mdicw2eden8m4r1" target="id-06zqn6dkfek62fmh4y7k9pxp1">
-          <archimate:style lineWidth="1">
-            <archimate:font />
-            <archimate:lineColor r="0" g="0" b="0" a="100" />
-          </archimate:style>
-          <archimate:waypoints>
-            <archimate:waypoint x="224" y="310" />
-            <archimate:waypoint x="215" y="250" />
-          </archimate:waypoints>
-        </archimate:connection>
-        <archimate:connection id="id-5us1wocoy31mwycvhvhhtdgdz" type="Relationship" relationshipRef="id-eh0gr7qkdqywhsscn8wbdnxqg" source="id-8r48udal23mdicw2eden8m4r1" target="id-4fqejvt1jjo45mxk11g7m8yfa">
-          <archimate:style lineWidth="1">
-            <archimate:font />
-            <archimate:lineColor r="0" g="0" b="0" a="100" />
-          </archimate:style>
-          <archimate:waypoints>
-            <archimate:waypoint x="277" y="310" />
-            <archimate:waypoint x="380" y="251" />
-          </archimate:waypoints>
-        </archimate:connection>
-        <archimate:node id="id-311gkdvopy6eddet0tqqp0ayi" type="Element" elementRef="id-bos9ahbb9jokokisq5m8emetd" x="419" y="299" w="120" h="55">
-          <archimate:style textAlign="center-middle">
-            <archimate:font />
-            <archimate:fillColor r="255" g="255" b="181" a="100" />
-            <archimate:lineColor r="0" g="0" b="0" a="40" />
-          </archimate:style>
-        </archimate:node>
-        <archimate:connection id="id-9g6d1lde96t3vjttceypzed1a" type="Relationship" relationshipRef="id-0vdbp12sncntpn4yroqgmn6cf" source="id-311gkdvopy6eddet0tqqp0ayi" target="id-5us1wocoy31mwycvhvhhtdgdz">
-          <archimate:style lineWidth="1">
-            <archimate:font />
-            <archimate:lineColor r="0" g="0" b="0" a="100" />
-          </archimate:style>
-          <archimate:waypoints>
-            <archimate:waypoint x="419" y="307" />
-            <archimate:waypoint x="331" y="278" />
-          </archimate:waypoints>
-        </archimate:connection>
       </archimate:view>
     </archimate:diagrams>
   </archimate:views>
-  <archimate:relationships>
-    <archimate:relationship id="id-69evq11tm4dici35il83ubt5n" type="Association" source="id-8v3o4zfpqdrt8r79iqne4g25q" target="id-8cp3c8ekbz8irm18vn2rzlr9h">
-      <archimate:name></archimate:name>
-    </archimate:relationship>
-    <archimate:relationship id="id-eh0gr7qkdqywhsscn8wbdnxqg" type="Association" source="id-8v3o4zfpqdrt8r79iqne4g25q" target="id-3yg0szgwqiv5uaxjpsrv8kadw">
-      <archimate:name></archimate:name>
-    </archimate:relationship>
-    <archimate:relationship id="id-0vdbp12sncntpn4yroqgmn6cf" type="Association" source="id-bos9ahbb9jokokisq5m8emetd" target="id-eh0gr7qkdqywhsscn8wbdnxqg">
-      <archimate:name></archimate:name>
-    </archimate:relationship>
-  </archimate:relationships>
 </archimate:model>

@@ -22,3 +22,13 @@ docs:
     source: auto-1756979535803-9950.bpmn
     location: /BPMN
     title: BPMN
+  doc1756980138932:
+    type: plantuml
+    source: auto-1756980138893-8237.puml
+    location: /ER-diagramm
+    title: ER-diagramm
+  doc1756980294629:
+    type: plantuml
+    source: auto-1756980294577-4026.puml
+    location: /seqdiag
+    title: seqdiag

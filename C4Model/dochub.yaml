@@ -1,0 +1,14 @@
+imports:
+  # Подключаем пользовательскую сущность C4 Model context
+  - entities/root.yaml
+  # Подключаем архитектурные компоненты
+  - components/root.yaml
+
+docs:
+  # Создаем стартовую страницу
+  dochub.welcome:
+    type: mkr-grid
+    source:
+      type: rows
+      items:
+        - src: "@entity/c4model/context"

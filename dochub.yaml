@@ -11,6 +11,7 @@ imports:
   # Базовая документация по DocHubIDE
   - https://alpha.dochub.info/archcode/dochub.yaml
   - arch.yaml
+  - src/C4Model/dochub.yaml
 docs:
   openapi:
     type: openapi
